@@ -4,7 +4,7 @@
 Cameras and Gimbals
 ===================
 
-Copter, Plane and Rover support up to 3-axis gimbals, including advance
+Copter, Plane and Rover support up to 3-axis gimbals, including advanced
 features like automated aiming of the camera at a Region of Interest
 (ROI), and automatic triggering of a camera shutter.  This article
 explains how to configure gimbals and shutter triggering based on your
@@ -19,7 +19,7 @@ Gimbals and gimbal controllers
 UAVs use gimbals to provide an independently controlled and stable
 platform for photography. ArduPilot supports both brushless direct drive
 gimbals (Tarot, SToRM32) that have a separate controller (providing
-self-stabilisation), and the increasingly-less-common servo-driven
+self-stabilisation), and the increasingly less-common servo-driven
 gimbals where both control and gimbal stabilisation are provided by
 ArduPilot.
 
@@ -44,7 +44,7 @@ you can specify when the camera shutter should trigger, or a distance
 that the vehicle should travel between shots.
 
 Camera manufacturers use their own mechanisms for remote control of the
-camera (including its shutter). The topics explain how to configure the
+camera (including its shutter). These topics explain how to configure the
 camera shutter, and list a number of different approaches for converting
 the output signal into the form expected by your particular camera:
 
